@@ -1,7 +1,7 @@
 // Solution 1:
 // Use a hidden input param
 
-var solution1 = function () {
+(function () {
     var passwordElement = $('input[name="pass"]');
 
     // create a hidden input field with name, to be sent to the server
@@ -73,4 +73,4 @@ var solution1 = function () {
             isInputHandlerActive = true;
         }
     });
-};
+})();
