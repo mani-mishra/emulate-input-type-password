@@ -1,10 +1,3 @@
-// Solution 0 - Smart Ass Solution 
-// Convert type of the password input box from 'text' to 'password' ;)
-
-var solution0 = function () {
-    $('input[name="pass"]').prop('type', 'password');
-};
-
 // Solution 1:
 // Use a hidden input param
 
@@ -81,6 +74,3 @@ var solution1 = function () {
         }
     });
 };
-
-// Solution 2 
-// Override form submit event
